@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <img src="../images/banner1.png" alt="">
-    <div class="info">
+    <div id="info-one" class="info">
         <img class="location" src="../images/location.png" alt="">
         <img class="arrow" src="../images/arrow.png" alt="">
         <img class="phone" src="../images/phone.png" alt="">
         <img class="arrow" src="../images/arrow.png" alt="">
         <img class="delivery" src="../images/delivery.png" alt="">
     </div>
-    <div class="company-info">
+    <div id="company-info" class="company-info">
         <h1>Tell us about your company</h1>
     </div>
     <div class="container">
-        <input type="text" placeholder="Number of trucks"> <br/>
-        <input type="text" placeholder="website"> <br/>
-        <input type="text" placeholder="Load type"> <br/>
-        <input type="text" placeholder="Your company insurance amount"> <br/>
-        <input type="text" placeholder="Type of equipement for transport"> <br/>
-        <input type="text" placeholder="service category preference"> <br/>
-        <input type="text" placeholder="Country Served"><br/>
-        <input type="text" placeholder="Area Served by the carrier">
-        <a href="../step2/index2.html">
-            <button class="btn">NEXT</button>
-        </a>
+        <form id="form-one">
+            <input type="text" placeholder="Number of trucks"> <br />
+            <input type="text" placeholder="website"> <br />
+            <input type="text" placeholder="Load type"> <br />
+            <input type="text" placeholder="Your company insurance amount"> <br />
+            <input type="text" placeholder="Type of equipement for transport"> <br />
+            <input type="text" placeholder="service category preference"> <br />
+            <input type="text" placeholder="Country Served"><br />
+            <input type="text" placeholder="Area Served by the carrier">
+        </form>
+
+        <div id="form-two">
+            <button id="btn2" class="btn" type="submit">Go to step 3</button>
+
+        </div>
+
+        <div id="form-three">
+
+        </div>
+
+
+
+        <button id="btn" class="btn">go to step 2</button>
     </div>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
